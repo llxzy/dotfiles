@@ -4,6 +4,13 @@ set expandtab
 colors happy_hacking
 set number
 
+if exists("+lines")
+    set lines=40
+endif
+if exists("+columns")
+    set columns=110
+endif
+
 call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
