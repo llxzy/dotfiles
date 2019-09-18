@@ -5,10 +5,10 @@ colors happy_hacking
 set number
 
 if exists("+lines")
-    set lines=40
+    set lines=36
 endif
 if exists("+columns")
-    set columns=110
+    set columns=106
 endif
 
 call plug#begin()
