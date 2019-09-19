@@ -15,9 +15,13 @@ call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
+"This one is for latex previewing, feel free do delete
+"LLPStartPreview to start
+Plug 'xuhdev/vim-latex-live-preview'
 call plug#end()
 
 let g:airline_powerline_fonts = 1
 let g:airline_theme='minimalist'
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#hunks#enabled = 0
+let g:livepreview_previewer = 'evince'
