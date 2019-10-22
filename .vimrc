@@ -1,7 +1,12 @@
 set tabstop=4
 set shiftwidth=4
 set expandtab
-colors happy_hacking
+syntax on
+
+"Themes
+"colors happy_hacking
+colors sierra
+
 set number
 
 if exists("+lines")
@@ -15,6 +20,8 @@ call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
+Plug 'sheerun/vim-polyglot'
+Plug 'vim-python/python-syntax'
 "This one is for latex previewing, feel free do delete
 "LLPStartPreview to start
 Plug 'xuhdev/vim-latex-live-preview'
